@@ -1,0 +1,86 @@
+:root{
+    --azul-principal: #007F9A;
+    --bege-secundario: #F0E9D9;
+    --amarelo-terciario: #F6C05C;
+}
+
+
+header{
+    background-color: var(--azul-principal);
+    height: 80px;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    z-index: 1;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 10rem;
+}
+
+.links-navegacao {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.links-navegacao li a{
+    text-decoration: none;
+    color: var(--bege-secundario);
+    transition: 0.7s;
+    font-size: 18px;
+}
+.links-navegacao li a:hover{
+    color: var(--amarelo-terciario);    
+}
+
+.espacamento-icon-texto {
+    margin-right: 8px;
+}
+svg{
+    top: -190px;
+    position: relative;
+    transform: rotate(180deg);
+}
+.capa{
+    height: 768px;
+    background-image: url(../img/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.capa div{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.capa div p{
+    color: var(--bege-secundario);
+    padding-top: 200px;
+}
+.texto-capa-1{
+    font-size: 52px;
+    color: var(--amarelo-terciario);
+}
+.texto-capa-2{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+main{
+    margin: 0 auto;
+}

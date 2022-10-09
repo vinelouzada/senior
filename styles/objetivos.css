@@ -1,0 +1,6 @@
+#objetivos {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background: var(--azul-principal);
+}
