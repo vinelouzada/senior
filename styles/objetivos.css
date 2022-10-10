@@ -1,6 +1,44 @@
 #objetivos {
     display: flex;
-    justify-content: center;
-    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
     background: var(--azul-principal);
+}
+
+#objetivos h2{
+    margin-top: 20px;
+    font-size: 42px;
+    font-weight: 800;
+    color: var(--bege-secundario);
+}
+
+.bloco_objetivos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.container_objetivos{
+    display: flex;
+    width: 350px;
+}
+
+.container_objetivos i{
+    font-size: 32px;
+    color: var(--amarelo-terciario);
+    margin-right: 10px;
+}
+.container_objetivos h4{
+    font-size: 24px;
+    color: var(--bege-secundario);
+    font-weight: bold;
+}
+
+.container_objetivos p{
+    font-size: 16px;
+    color: var(--bege-secundario);
 }
