@@ -1,29 +1,29 @@
-#sobre {
+#autor {
     margin: 40px;
     display: flex;
     justify-content: center;
 }
 
-#sobre img, .container-sobre {
+#autor img, .container-autor {
     width: 27rem;
     height: 27rem;
     object-fit: cover;
 }
 
-#sobre img{
+#autor img{
     margin-left: 20px ;
 }
 
-.container-sobre {
+.container-autor {
     background-color: var(--azul-principal);
 }
 
-.container-sobre-centralizado {
+.container-autor-centralizado {
     width: 80%;
     margin: 30px auto;
 }
 
-.container-sobre p:nth-child(1) {
+.container-autor p:nth-child(1) {
     font-weight: bold;
     font-size: 18px;
     color: var(--bege-secundario);
@@ -31,7 +31,7 @@
 
 }
 
-.container-sobre p:nth-child(2) {
+.container-autor p:nth-child(2) {
     font-weight: bold;
     font-size: 40px;
     color: var(--amarelo-terciario);
@@ -40,7 +40,7 @@
 
 }
 
-.container-sobre p:nth-child(3) {
+.container-autor p:nth-child(3) {
     font-size: 18px;
     text-align: justify;
     color: var(--bege-secundario);
@@ -48,7 +48,7 @@
 }
 
 
-.container-sobre p:nth-child(4) {
+.container-autor p:nth-child(4) {
     font-size: 16px;
     color: var(--bege-secundario);
     margin-top: 30px;
