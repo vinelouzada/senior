@@ -6,7 +6,7 @@
 
 #autor img, .container-autor {
     width: 27rem;
-    height: 27rem;
+    height: 30rem;
     object-fit: cover;
 }
 
@@ -45,6 +45,8 @@
     text-align: justify;
     color: var(--bege-secundario);
     margin-top: 30px;
+    font-weight: 300;
+    line-height: 1.3;
 }
 
 

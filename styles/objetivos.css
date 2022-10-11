@@ -16,15 +16,18 @@
 .bloco_objetivos{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    align-content: center;
     height: 100%;
     width: 80%;
     flex-wrap: wrap;
     gap: 30px;
+
 }
 .container_objetivos{
     display: flex;
     width: 350px;
+    text-align: justify;
 }
 
 .container_objetivos i{
@@ -36,9 +39,12 @@
     font-size: 24px;
     color: var(--bege-secundario);
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .container_objetivos p{
     font-size: 16px;
     color: var(--bege-secundario);
+    font-weight: 300;
+    line-height: 1.4;
 }
