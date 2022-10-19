@@ -11,4 +11,4 @@ Plataforma Senior criada para a conclusão da disciplina de Interface Humano Com
 
 
 
-![](imagem.png#vitrinedev)
+![](https://user-images.githubusercontent.com/57668890/196705389-e8c2e3ea-3de6-4d9a-9bfb-2d22d1a700b9.png#vitrinedev)
