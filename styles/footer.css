@@ -1,0 +1,38 @@
+footer {
+    height: 100px;
+    background-color: var(--azul-principal);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.dev{
+    display: flex;
+    gap: 20px;
+}
+
+footer h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: var(--bege-secundario);
+    font-weight: 700;
+    
+}
+footer a {
+    color: var(--amarelo-terciario);
+    text-decoration: none;
+    transition: 0.7s;
+    font-weight: 700;
+}
+
+footer a:hover {
+    color: var(--bege-secundario);
+}
+
+footer i {
+    font-size: 26px;
+    vertical-align: middle;
+}
